@@ -162,3 +162,42 @@ header {
     width: 93%;
 }
 /*========== HERO END ==========*/
+
+
+/*========== ABOUT US START ==========*/
+.about-us {
+    background-image: url(../img/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+.about-us-container {
+    display: flex;
+}
+
+.about-us-img, .about-us-title {
+    max-width: 49%;
+    width: 100%;
+}
+
+.about-us-img {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-img img {
+    width: 60%;
+}
+
+.about-us-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-us-title h2 {
+    margin-bottom: 30px;
+}
+.about-us-title p {
+    margin-bottom: 70px;
+}
+/*========== ABOUT US END ==========*/
