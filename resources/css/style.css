@@ -379,3 +379,37 @@ header {
     background: linear-gradient(to right, #FBA24F -7.64%, #FF1E1E 145.94%);
 } 
 /*========== SOCIAL SECTION END ==========*/
+
+
+/*========== FOOTER START ==========*/
+footer {
+    background: #0B0D17;
+    padding: 30px 0;
+}
+
+footer .logo {
+    text-shadow: none;
+    color: white;
+    margin-bottom: 25px;
+}
+
+footer .logo a span {
+    text-shadow: 0px 4px 10px rgb(252 142 73 / 15%)
+}
+
+footer .logo h1 {
+    color: #5B5B5B;
+}
+
+footer h1, footer p {
+    text-align: center;
+}
+
+footer .quote {
+    margin-bottom: 20px;
+}
+
+footer .copyright {
+    font-size: 14px;
+}
+/*========== FOOTER END ==========*/
