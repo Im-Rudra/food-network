@@ -1,3 +1,4 @@
+/*========== COMMON CSS START ==========*/
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -11,3 +12,115 @@ body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
 }
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #18191F;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #828282;
+}
+
+a {
+    text-decoration: none;
+}
+
+.side-margin {
+    width: 93%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.grad {
+    text-shadow: 0px 4px 10px rgba(252, 142, 73, 0.65);
+    background: linear-gradient(to right, #FBA24F, #FF1E1E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottom-margin {
+    margin-bottom: 60px;
+}
+
+.grad-btn {
+    display: inline-block;
+    background: linear-gradient(to right, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.502);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.137);
+    padding: 20px 50px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.grad-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 30px 0px rgba(252, 142, 73, 0.815);
+}
+/*========== COMMON CSS END ==========*/
+
+
+/*========== HEADER START ==========*/
+header {
+    box-shadow: 0 2px 15px #bbbbbb;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    
+}
+
+.logo a {
+    color: #000000;
+}
+
+.logo a h1 {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.137);
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    margin: 6px 0;
+}
+
+.header-links ul li {
+    margin-left: 15px;
+    position: relative;
+}
+
+.header-links ul li a {
+    color: #1b1b1b;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 7px 20px;
+    border-radius: 30px;
+    transition: padding 0.2s ease-in;
+}
+
+.header-links ul li a:hover {
+    background: linear-gradient(to right, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.502);
+}
+/*========== HEADER END ==========*/
